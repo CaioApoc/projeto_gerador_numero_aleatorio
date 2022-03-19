@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(222, 236, 248);
+}
+.container{
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 300px;
+    background-color:whitesmoke;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.resultado{
+    background-color: aqua;
+}
+
+input{ /*ja chamei o input geral pq assim ja faco em todos os inputs*/
+    width: 70%; /*ou seja, ele vai pegar 100% do tamanho da largura do pai que é a div container*/
+    display: block; /*usamos para nao ter nada do lado dele, fica um em cima do outro*/
+    padding: 5px; /*para dar espaco nos placeholders*/
+    box-sizing: border-box; /*A box vai ser 100% contando pa0dding e borda, pra ficar tudo dentro da div e com o mesmo espacamento dos lados*/
+    margin-bottom: 10px; /*coloca margem para baixo para ter espaco entre os inputs*/
+    border-radius: 5px;
+    background-color: rgb(222, 236, 248);
+    
+}
+
+button{
+    text-align: center;
+    border-radius: 5px;
+    
+    
+    
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 15px;
+}
+
+button:hover{
+    background-color: rgb(66, 106, 139);
+    color: aliceblue;
+}
+
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+
+/*centralizar os botoes na div*/
